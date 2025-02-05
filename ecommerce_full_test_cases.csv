@@ -1,0 +1,16 @@
+Test Case ID,Test Case Description,Test Steps,Expected Result,Actual Result,Status,Severity Level,Assigned To,Remarks
+TC001,Validate product listing page,Open product page > Verify products,Products displayed correctly,Products displayed correctly,Passed,Low,-,No issues found
+TC002,Test API error handling,Disconnect API > Refresh page,Show fallback UI with error message,Error message shown,Passed,Medium,-,Handled gracefully
+TC003,Check cart functionality,Add product to cart > Verify cart contents,Cart updates with added product,Cart updates as expected,Passed,High,-,Works as expected
+TC004,Ensure responsiveness on mobile,Resize browser window > Check layout,Layout adjusts properly to screen size,Responsive layout working as intended,Passed,Medium,-,Test successful
+TC005,Verify dynamic product updates,Update product details in Sanity > Refresh product page,Product details update dynamically,Product details updated correctly,Passed,High,-,Dynamic updates working
+TC006,Test fetching data from Sanity,Fetch product data from Sanity > Display on screen,Products should be fetched and displayed correctly,Products displayed correctly,Passed,High,-,Sanity data fetching works
+TC007,Test dynamic routing for product pages,Click on a product > Verify URL and content,Correct product details should load dynamically,Product details loaded correctly,Passed,High,-,Dynamic routing works
+TC008,Check error handling when fetching fails,Simulate API failure > Refresh page,Show fallback UI with error message,Error message displayed,Passed,Medium,-,Handled gracefully
+TC009,Verify 'Add to Cart' functionality,Select a product > Click 'Add to Cart' > Check cart,Product should be added to cart,Product added successfully,Passed,High,-,Add to Cart works fine
+TC010,Ensure cart updates dynamically,Add multiple products > Update quantity > Remove item,Cart should update totals dynamically,Cart updates correctly,Passed,High,-,Cart calculations working
+TC011,Test checkout page functionality,Go to checkout > Fill form > Submit,Order should be placed successfully,Order placed and confirmed,Passed,High,-,Checkout page working
+TC012,Ensure responsiveness on mobile,Resize browser > Check layout on different devices,Layout should adjust properly,Responsive layout verified,Passed,Medium,-,Mobile responsiveness works
+TC013,Verify shipment tracking integration,Place an order > Check shipment status using API,Tracking info should be displayed correctly,Tracking information displayed,Passed,Medium,-,Shipment API working
+TC014,Test payment gateway integration,Proceed to checkout > Enter payment details > Submit,Payment should be processed successfully,Payment processed,Passed,High,-,Payment gateway working
+TC015,Verify user authentication,Try logging in with valid and invalid credentials,"Valid users should log in, invalid ones should see an error",Authentication working correctly,Passed,High,-,Login system verified
